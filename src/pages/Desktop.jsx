@@ -1,9 +1,8 @@
 import Navbar from "../components/Navbar";
 import Section from "../components/Section";
 import Footer from "../components/Footer";
-import RunIcon from "../components/RunIcon";
 import BoxingIcon from "../components/BoxingIcon";
-import StrongIcon from "../components/StrongIcon";
+import RunIcon from "../components/RunIcon";
 
 const Desktop = () => {
   return (
@@ -23,17 +22,21 @@ const Desktop = () => {
       <Navbar />
       <Section />
       <Footer />
-      <div className="absolute top-[34.5rem] left-[calc(50%_-_337px)] shadow-[0px_19px_75px_rgba(164,_15,_15,_0.17)] bg-white w-[42.125rem] h-[9.5rem] flex flex-row items-end justify-center py-[1.25rem] px-[5.5rem] box-border gap-[5.562rem] text-[1.5rem] text-red">
-        <div className="flex flex-col items-center justify-end gap-[1.062rem]">
-          <RunIcon />
+      <div className="absolute top-[30.667rem] left-[calc(50%_-_337px)] bg-white shadow-[0px_19px_75px_rgba(164,_15,_15,_0.17)] w-[37.444rem] h-[8.444rem] flex flex-row items-end justify-center py-[1.111rem] px-[4.889rem] box-border gap-[4.944rem] text-[1.333rem] text-red">
+        <div className="flex flex-col items-center justify-end gap-[0.944rem]">
+          <BoxingIcon />
           <b className="relative leading-[110%] uppercase">Exercise</b>
         </div>
-        <div className="flex flex-col items-center justify-end gap-[1rem]">
-          <BoxingIcon />
+        <div className="flex flex-col items-center justify-end gap-[0.889rem]">
+          <RunIcon />
           <b className="relative leading-[110%] uppercase">lession</b>
         </div>
-        <div className="flex flex-col items-center justify-end gap-[1.25rem]">
-          <StrongIcon />
+        <div className="flex flex-col items-center justify-end gap-[1.111rem]">
+          <img
+            className="w-[2.611rem] relative h-[2.611rem] overflow-hidden shrink-0"
+            alt=""
+            src="/layer-1.svg"
+          />
           <b className="relative leading-[110%] uppercase">crossfit</b>
         </div>
       </div>
