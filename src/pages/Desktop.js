@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Desktop = () => {
   return (
-    <div className="max-w-[1200px] w-full relative bg-soft-grey h-[108.889rem] overflow-hidden text-left text-[7.111rem] text-white font-menu">
+    <div className="mx-auto  max-w-[1200px] w-full relative bg-soft-grey h-[108.889rem] overflow-hidden text-left text-[7.111rem] text-white font-menu">
       <img
         className="absolute top-[0rem] left-[0rem] w-[80rem] h-[37.778rem] object-cover"
         alt=""
