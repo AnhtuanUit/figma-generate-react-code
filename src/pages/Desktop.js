@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import Section from "../components/Section";
 import Footer from "../components/Footer";
+import BoxingIcon from "../components/BoxingIcon";
+import RunIcon from "../components/RunIcon";
 
 const Desktop = () => {
   return (
@@ -22,19 +24,11 @@ const Desktop = () => {
       <Footer />
       <div className="absolute top-[30.667rem] left-[calc(50%_-_337px)] bg-white shadow-[0px_19px_75px_rgba(164,_15,_15,_0.17)] w-[37.444rem] h-[8.444rem] flex flex-row items-end justify-center py-[1.111rem] px-[4.889rem] box-border gap-[4.944rem] text-[1.333rem] text-red">
         <div className="flex flex-col items-center justify-end gap-[0.944rem]">
-          <img
-            className="w-[2.611rem] relative h-[2.611rem] overflow-hidden shrink-0"
-            alt=""
-            src="/frame.svg"
-          />
+          <BoxingIcon />
           <b className="relative leading-[110%] uppercase">Exercise</b>
         </div>
         <div className="flex flex-col items-center justify-end gap-[0.889rem]">
-          <img
-            className="w-[2.061rem] relative h-[2.611rem]"
-            alt=""
-            src="/vector.svg"
-          />
+          <RunIcon />
           <b className="relative leading-[110%] uppercase">lession</b>
         </div>
         <div className="flex flex-col items-center justify-end gap-[1.111rem]">
